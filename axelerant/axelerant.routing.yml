@@ -1,0 +1,8 @@
+axelerant:
+  path: '/page_json/FOOBAR12345/{nodeid}'
+  defaults:
+    _controller: '\Drupal\axelerant\Controller\JsonRepresentationNode::nodedata'
+    _title: 'JSON Representation Node'
+  requirements:
+    _permission: 'access content'
+
